@@ -38,7 +38,7 @@ To set up the Voice Assistant on your system, follow these steps:
     pip install pyttsx3 datetime speech_recognition wikipedia smtplib
     ```
 
-2. **Configuration**: Update the `GMAIL_ID` and `GMAIL_PASS` variables with your Gmail credentials. Additionally, customize the contacts dictionary with the email addresses of your desired recipients.
+2. **Configuration**: Update the `GMAIL_ID` and `GMAIL_PASS` variables with your Gmail credentials by creating .env file. Additionally, customize the contacts dictionary with the email addresses of your desired recipients.
 
 3. **Path Configuration**: Adjust paths for web browsers, music directories, and any other applications to match your system setup.
 
@@ -53,7 +53,3 @@ To use the Voice Assistant:
 ### Conclusion
 
 The Voice Assistant project aims to enhance user productivity and convenience by providing a versatile and intuitive interface for performing various tasks using voice commands. Whether you're a tech enthusiast exploring the capabilities of voice recognition or someone looking for practical solutions to streamline daily activities, the Voice Assistant offers a compelling solution.
-
-### Disclaimer
-
-While the Voice Assistant strives to provide a reliable and efficient user experience, it may encounter limitations or unforeseen issues in certain scenarios. Users are advised to use the assistant responsibly and understand that it may require further refinement for optimal performance in all use cases.
